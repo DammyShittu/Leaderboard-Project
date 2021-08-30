@@ -22,6 +22,10 @@ h1 {
   font-size: 40px;
 }
 
+h2 {
+  font-size: 27px;
+}
+
 .structure {
   display: flex;
   flex-direction: column;
@@ -35,4 +39,25 @@ h1 {
   align-items: center;
   justify-content: center;
   margin: 0 auto;
+}
+
+.recent-scores button {
+  padding: 6px 15px;
+  box-shadow: 3px 3px 2px 1px #333;
+}
+
+.table {
+  margin: 40px 0;
+  padding: 0;
+  list-style: none;
+  border: 2px solid rgb(82, 76, 76);
+}
+
+.table li {
+  text-align: start;
+  padding: 5px 10px;
+}
+
+.table li:nth-child(even) {
+  background-color: lightgray;
 }
