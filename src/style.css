@@ -68,7 +68,7 @@ button:hover {
 }
 
 #form-section h2 {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 #form {
@@ -103,8 +103,6 @@ input {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    align-items: center;
-    justify-content: center;
   }
 
   #form {
@@ -114,5 +112,9 @@ input {
 
   input {
     padding: 10px;
+  }
+
+  .recent-scores {
+    gap: 20px;
   }
 }
