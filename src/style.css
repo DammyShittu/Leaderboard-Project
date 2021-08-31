@@ -11,12 +11,6 @@ body {
   color: #333;
 }
 
-#lb-main {
-  height: 100%;
-  width: 80%;
-  margin: 50px auto;
-  text-align: center;
-}
 
 h1 {
   font-size: 40px;
@@ -26,10 +20,27 @@ h2 {
   font-size: 27px;
 }
 
+button {
+  padding: 6px 15px;
+  box-shadow: 3px 3px 2px 1px #333;
+  transition: 300ms ease-in-out;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #333;
+  color: #eee;
+  transform: scale(0.98);
+}
+
+#lb-main {
+  height: 100%;
+  width: 80%;
+  margin: 50px auto;
+  text-align: center;
+}
+
 .structure {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   margin-top: 20px;
 }
 
@@ -41,11 +52,6 @@ h2 {
   margin: 0 auto;
 }
 
-.recent-scores button {
-  padding: 6px 15px;
-  box-shadow: 3px 3px 2px 1px #333;
-}
-
 .table {
   margin: 40px 0;
   padding: 0;
@@ -55,9 +61,58 @@ h2 {
 
 .table li {
   text-align: start;
-  padding: 5px 10px;
+  padding: 8px 10px;
 }
 
 .table li:nth-child(even) {
   background-color: lightgray;
+}
+
+#form-section h2 {
+  margin-bottom: 30px;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+input {
+  padding: 7px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #333;
+  font-size: 17px;
+}
+
+#form-section button {
+  align-self: flex-end;
+  margin-top: 5px;
+}
+
+@media all and (min-width:768px) {
+  h1 {
+    text-align: start;
+    font-size: 50px;
+  }
+  .structure {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #form {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  input {
+    padding: 10px;
+  } 
 }
