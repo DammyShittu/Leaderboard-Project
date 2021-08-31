@@ -3,6 +3,10 @@
 # Leaderboard
 
 > Leaderboard is a website that has its data preserved with the external Leaderboard API serice. It displays the names and scores of different people and also allows you add your own score to the leaderboard.
+
+# Demo Link
+
+Click [here](https://dammyshittu.github.io/Leaderboard-Project/dist/) to view the website online.
 # Screenshot
 
 Width - 1440px
