@@ -2,7 +2,7 @@
 
 # Leaderboard
 
-Leaderboard is a website that has its data preserved with the external Leaderboard API serice. It displays the names and scores of different people and also allows you add your own score to the leaderboard.
+> Leaderboard is a website that has its data preserved with the external Leaderboard API serice. It displays the names and scores of different people and also allows you add your own score to the leaderboard.
 # Screenshot
 
 Width - 1440px
@@ -17,9 +17,9 @@ Width - 375px
 
 To get a local copy up and running follow these simple steps.
 
-- You can clone this repo by typing `git clone https://github.com/DammyShittu/ToDo-List-App.git` on your terminal.
+- You can clone this repo by typing `git clone https://github.com/DammyShittu/Leaderboard-Project.git` on your terminal.
 
-- Type `cd ToDo-List-App` to access the project on the terminal.
+- Type `cd Leaderboard-Project` to access the project on the terminal.
   
 - Run `npm install` from your editor's terminal.
 
