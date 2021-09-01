@@ -26,4 +26,3 @@ AOS.init({
 });
 
 window.onload = getScores(gameApi).then((data) => showScores(data.result));
-
