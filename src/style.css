@@ -20,12 +20,13 @@ h2 {
 }
 
 button {
-  padding: 8px 17px;
+  padding: 8px 22px;
   transition: 300ms ease-in-out;
   cursor: pointer;
   border-radius: 25px;
   outline: none;
   border: 0;
+  font-size: 15px;
 }
 
 button:hover {
@@ -112,6 +113,8 @@ input {
     margin-top: 60px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
     gap: 20px;
   }
 
@@ -126,5 +129,9 @@ input {
 
   .recent-scores {
     gap: 20px;
+  }
+
+  #table li {
+    font-size: 18px;
   }
 }

@@ -21,7 +21,7 @@ form.addEventListener('submit', (e) => {
 // eslint-disable-next-line no-undef
 AOS.init({
   delay: 200,
-  duration: 1200,
+  duration: 1500,
   once: true,
 });
 
