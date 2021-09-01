@@ -18,4 +18,12 @@ form.addEventListener('submit', (e) => {
   postScores(gameApi);
 });
 
+// eslint-disable-next-line no-undef
+AOS.init({
+  delay: 200,
+  duration: 1200,
+  once: true,
+});
+
 window.onload = getScores(gameApi).then((data) => showScores(data.result));
+
