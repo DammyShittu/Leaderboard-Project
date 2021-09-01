@@ -7,12 +7,13 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
-  background-color: #f4f4f4;
-  color: #333;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgb(22, 30, 169) 99.8% );
+  color: #f4f4f4;
 }
 
 h1 {
   font-size: 40px;
+  color: linear-gradient(#333, #eee);
 }
 
 h2 {
@@ -20,15 +21,16 @@ h2 {
 }
 
 button {
-  padding: 6px 15px;
-  box-shadow: 3px 3px 2px 1px #333;
+  padding: 8px 17px;
   transition: 300ms ease-in-out;
   cursor: pointer;
+  border-radius: 25px;
+  outline: none;
+  border: 0;
 }
 
 button:hover {
-  background-color: #333;
-  color: #eee;
+  background-color: rgba(68, 233, 203, 0.981);
   transform: scale(0.98);
 }
 
@@ -55,7 +57,7 @@ button:hover {
   margin: 40px 0;
   padding: 0;
   list-style: none;
-  border: 2px solid rgb(82, 76, 76);
+  border: 2px solid rgba(68, 233, 203, 0.981);
 }
 
 #table li {
@@ -64,7 +66,8 @@ button:hover {
 }
 
 #table li:nth-child(even) {
-  background-color: lightgray;
+  background-color: rgba(68, 233, 203, 0.981);
+  color: #000;
 }
 
 #form-section h2 {
@@ -88,7 +91,6 @@ input {
 }
 
 #error-msg {
-  color: rgb(228, 28, 28);
   font-size: 14px;
   font-weight: 500;
   font-style: italic;
