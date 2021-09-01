@@ -7,13 +7,12 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
-  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgb(22, 30, 169) 99.8% );
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(37, 145, 251, 0.98) 0.1%, rgb(22, 30, 169) 99.8%);
   color: #f4f4f4;
 }
 
 h1 {
   font-size: 40px;
-  color: linear-gradient(#333, #eee);
 }
 
 h2 {
