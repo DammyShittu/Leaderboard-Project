@@ -2,7 +2,7 @@ const nameInput = document.getElementById('name');
 const scoreInput = document.getElementById('score');
 
 const postScores = async (url) => {
-  const response = await fetch(url, {
+  const result = await fetch(url, {
     method: 'POST',
     body: JSON.stringify({
       user: nameInput.value,
@@ -15,7 +15,7 @@ const postScores = async (url) => {
 
   nameInput.value = '';
   scoreInput.value = '';
-  return response.json();
+  return result.json();
 };
 
 export default postScores;
