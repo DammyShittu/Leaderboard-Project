@@ -1,8 +1,12 @@
-const showScores = (scores) => {
+const showScores = (points) => {
   const scoresContainer = document.getElementById('table');
   scoresContainer.innerHTML = '';
-  scores.forEach((score) => {
-    const scoreList = `<li class="name-scores">${score.user}: ${score.score}</li>`;
+  points.sort((a, b) => parseInt(b.score, 10) - parseInt(a.score, 10));
+  points.forEach((point) => {
+    const scoreList = `<li class="name-scores">
+    <p>${point.user}</p>
+    <p> ${point.score}</p>
+    </li>`;
 
     scoresContainer.innerHTML += scoreList;
   });

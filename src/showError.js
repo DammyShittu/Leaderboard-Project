@@ -1,14 +1,22 @@
 const showError = () => {
-  const scoreInput = document.getElementById('score').value;
-  const nameInput = document.getElementById('name').value;
   const errorMsg = document.getElementById('error-msg');
+  const inputs = document.querySelectorAll('input');
 
-  if (nameInput === '' && scoreInput === '') {
+  if (inputs.value === '') {
     return;
   }
-  if (nameInput === '' || scoreInput === '') {
-    errorMsg.style.display = 'block';
-  }
+
+  inputs.forEach((input) => {
+    if (input.value === '') {
+      errorMsg.style.display = 'block';
+    }
+
+    input.addEventListener('focus', () => {
+      setTimeout(() => {
+        errorMsg.style.display = 'none';
+      }, 200);
+    });
+  });
 };
 
 export default showError;
