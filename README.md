@@ -6,7 +6,7 @@
 
 # Demo Link
 
-Click [here](https://dammyshittu.github.io/Leaderboard-Project/dist/) to view the website online.
+Click [here](https://ds-leaderboard.netlify.app/) to view the website online.
 # Screenshot
 
 Width - 1440px
