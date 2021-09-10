@@ -1,6 +1,5 @@
 const nameInput = document.getElementById('name');
 const scoreInput = document.getElementById('score');
-console.log(nameInput);
 
 const postScores = async (url) => {
   const result = await fetch(url, {

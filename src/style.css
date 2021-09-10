@@ -125,8 +125,8 @@ input[type=number]::-webkit-outer-spin-button {
   font-size: 14px;
   font-weight: 500;
   font-style: italic;
-  transition: all ease-in-out;
   display: none;
+  transition: display 300ms ease-in-out 400ms;
   background-color: #f4f4f4;
   padding: 2px;
   color: red;
